@@ -68,4 +68,8 @@ export class ProductComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  addToCard(product: Product) {
+    alert(product.name + " sepete eklendi");
+  }
 }
